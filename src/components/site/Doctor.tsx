@@ -11,7 +11,7 @@ export function Doctor() {
         <Reveal className="md:col-span-5">
           <div className="relative">
             <div className="absolute -inset-3 border border-gold/30" />
-            <img src="src\components\site\doctor-annu-v2.jpg" alt="Dr. Annu James" loading="lazy" className="relative w-full aspect-[4/5] object-cover" />
+            <img src={doctor} alt="Dr. Annu James" loading="lazy" className="relative w-full aspect-[4/5] object-cover" />
           </div>
         </Reveal>
 
