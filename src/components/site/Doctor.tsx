@@ -1,7 +1,6 @@
 import { Reveal } from "./Reveal";
-import doctorAsset from "@/assets/doctor-annu-v2.jpg.asset.json";
+import doctor from "@/assets/doctor-annu-v2.jpg";
 import abh from '@/assets/treatment-abhyanga.jpg';
-const doctor = doctorAsset.url;
 
 
 export function Doctor() {
