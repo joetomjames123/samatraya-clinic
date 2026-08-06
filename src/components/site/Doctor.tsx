@@ -1,5 +1,4 @@
 import { Reveal } from "./Reveal";
-import doctor from "@/assets/doctor-annu-v2.jpg";
 import abh from '@/assets/treatment-abhyanga.jpg';
 
 
@@ -10,7 +9,7 @@ export function Doctor() {
         <Reveal className="md:col-span-5">
           <div className="relative">
             <div className="absolute -inset-3 border border-gold/30" />
-            <img src={doctor} alt="Dr. Annu James" loading="lazy" className="relative w-full aspect-[4/5] object-cover" />
+            <img src="/doctor-annu-v2.jpg" alt="Dr. Annu James" loading="lazy" className="relative w-full aspect-[4/5] object-cover" />
           </div>
         </Reveal>
 
